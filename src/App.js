@@ -1,26 +1,22 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import ComingSoon from "react-coming-soon"
+import Particles from "react-particles-js"
+import Logo from './assets/logo-blanco-verde.svg'
+import './App.css'
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <img src={Logo} alt="Manu de Quevedo" className="main-logo" />
+      <ComingSoon
+        title="A new improved site is coming soon"
+        bgColor="transparent"
+        textColor="#13eba2"
+        date="Mon Sep 16 2019 00:00:00 GMT-0500 (Central Daylight Time)"
+      />
     </div>
   );
 }
 
-export default App;
+export default App
