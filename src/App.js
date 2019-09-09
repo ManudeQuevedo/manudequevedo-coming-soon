@@ -1,6 +1,5 @@
 import React from 'react'
 import ComingSoon from "react-coming-soon"
-import Particles from "react-particles-js"
 import Logo from './assets/logo-blanco-verde.svg'
 import './App.css'
 
