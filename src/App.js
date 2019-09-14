@@ -12,7 +12,7 @@ function App() {
         title="A new improved site is coming soon"
         bgColor="transparent"
         textColor="#13eba2"
-        date="Mon Sep 16 2019 00:00:00 GMT-0500 (Central Daylight Time)"
+        date="Mon Sep 17 2019 00:00:00 GMT-0500 (Central Daylight Time)"
       />
     </div>
   );
